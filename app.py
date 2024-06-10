@@ -14,7 +14,7 @@ from langchain.prompts import PromptTemplate
 from langchain_community.callbacks import get_openai_callback
 from langchain_community.vectorstores import LanceDB
 
-openai_api_key = "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"
+openai_api_key = "your key"
 client = OpenAI(api_key=openai_api_key)
 
 with open('coursera.pkl', 'rb') as file:
